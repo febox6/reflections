@@ -1,0 +1,7 @@
+- O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+
+É criada a pasta oculta .git que controlará as informações de versões da pasta. Isso é necessário para que seja feito o primeiro commit.
+
+- Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
+
+A área de preparação é a versão local que você está trabalhando e pode conter apenas a parte do projeto que está sendo atualizada naquele momento. Ela oferece flexibilidade para que pense e atue separando questões lógicas em cada commit.
