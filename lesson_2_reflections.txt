@@ -5,3 +5,23 @@
 - Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
 
 A área de preparação é a versão local que você está trabalhando e pode conter apenas a parte do projeto que está sendo atualizada naquele momento. Ela oferece flexibilidade para que pense e atue separando questões lógicas em cada commit.
+
+- Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+
+É possível adicionar à Staging Area apenas os arquivos da mesma alteração lógica, mesmo que tenha alterado vários arquivos diferentes no projeto.
+
+- Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
+
+Quando alguma alteração experimental, grande ou não, vai ser desenvolvida e você não quer alterar o código original, um novo branch centraliza essas alterações.
+
+- Como os diagramas ajudam a visualizar a estrutura de branches?
+
+Os diagramas fornecem uma linha do tempo dos commits que facilita a visualização do histórico e a hierarquia das alterações do projeto.
+
+- Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+
+A mesclagem resulta na unificação de todos os commits que foram feitos desde que os branches foram separados. O diagrama é feito no formato "linha do tempo" para facilitar a visualização.
+
+- Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
+
+A mesclagem automática adiciona as diferenças entre os branches sem interação com o usuário, enquanto a manual permite que você decida qual parte fará parte do arquivo final.
