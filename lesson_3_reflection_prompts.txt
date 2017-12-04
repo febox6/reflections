@@ -1,0 +1,3 @@
+- Quando gostaria de usar um repositório remoto em vez de manter o trabalho local?
+
+Quando é utilizado múltiplos computadores para edição do mesmo projeto ou quando a equipe contém várias pessoas.
